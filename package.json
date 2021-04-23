@@ -4,8 +4,26 @@
   "description": "This is assignment 1",
   "main": "aboutus.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "Hao Li",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihaokx/Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lihaokx/Assignment1/issues"
+  },
+  "homepage": "https://github.com/lihaokx/Assignment1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.16.1"
+  }
 }
