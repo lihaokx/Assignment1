@@ -17,24 +17,25 @@
 <body>
 
   <div class="container">
-     
-    <div  class="row row-content align-items-center">
-      <div class="col-5 col-sm-4 order-sm-last col-md-3">
-          <h3>Our Lipsmacking Culinary Creations</h3>
+    <form>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          <input type="radio" name="question1" aria-label="Radio button for following text input">
+          <input type="radio" name="question1" aria-label="Radio button for following text input">
+          </div>
         </div>
-          <div class="col col-sm order-sm-first col-md">
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
-                <div class="media-body">
-                    <h2 class="mt-0">Uthappizza</h2>
-                    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                    Italian pizza, topped with Cerignola olives, ripe vine
-                    cherry tomatoes, Vidalia onion, Guntur chillies and
-                    Buffalo Paneer.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+    </form>
+
+    <form name="my_form" method="POST">
+      性别：
+      <input type="radio" name="question1" value="boy">男
+      <input type="radio" name="question1" value="girl">女
+    </form>
+
+
+  
   </div>
  
 
