@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Hao Li",
   "license": "ISC",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/lihaokx/Assignment1#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0"  
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
